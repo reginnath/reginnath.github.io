@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Regina Nathania | Data Analyst Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="#home">Regina Nathania</a>
+            
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home">
+            <div class="hero-content">
+                <h1>Hi, I'm Regina👋</h1>
+                <h2>
+                    Computer Science Student & Aspiring Data Analyst
+                </h2>
+                <p>
+                    I enjoy working with data to uncover insights,
+                    identify patterns, and solve real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects">View Projects</a>
+                    <a href="#contact">Get in Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="photo-placeholder">
+                    ≽^•⩊•^≼ ₊˚⊹♡
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="reveal">
+            <div class="section-heading">
+                <p class="section-label">ABOUT ME</p>
+                <h2>A little bit about me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Computer Science undergraduate with hands-on
+                        experience in data analytics, data visualization,
+                        and ETL through academic and project-based work.
+                    </p>
+                    <p>
+                        I enjoy working with data to uncover patterns,
+                        generate insights, and understand how data can
+                        support real-world decision-making.
+                    </p>
+                    <p>
+                        Currently, I'm interested in exploring data analytics,
+                        machine learning, and data-related technologies while
+                        continuously building my technical skills through
+                        projects and hands-on experience.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <span>01</span>
+                        <h3>Data Analytics</h3>
+                        <p>Exploring data, finding patterns, and generating insights.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <span>02</span>
+                        <h3>Data Engineering</h3>
+                        <p>Transforming and preparing data for analytical use.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <span>03</span>
+                        <h3>Machine Learning</h3>
+                        <p>Learning how models can be used to analyze data.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="reveal">
+            <div class="section-heading">
+                <p class="section-label">SKILLS</p>
+                <h2>Tools & technologies I work with</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Data Analysis</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>SciPy</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Data Visualization</h3>
+
+                    <div class="skill-tags">
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                        <span>Power BI</span>
+                        <span>Tableau</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Data Engineering</h3>
+
+                    <div class="skill-tags">
+                        <span>Pentaho</span>
+                        <span>MySQL</span>
+                        <span>ETL</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+
+                    <div class="skill-tags">
+                        <span>Scikit-learn</span>
+                        <span>Classification</span>
+                        <span>Random Forest</span>
+                        <span>Model Evaluation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="reveal">
+            <div class="section-heading">
+                <p class="section-label">PROJECTS</p>
+                <h2>Things I've worked on</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Sales Data Analytics</h3>
+                    <p>
+                        An end-to-end sales data analytics project covering
+                        data preparation, exploratory analysis, statistical
+                        testing, and predictive modeling.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                    <button
+                        class="project-button"
+                        onclick="openModal('sales-modal')">
+                        View Details →
+                    </button>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Data Engineering / ETL</h3>
+                    <p>
+                        An ETL pipeline using Pentaho to transform, validate,
+                        model, and prepare data for analytical and machine
+                        learning use.
+                    </p>
+                    <div class="project-tags">
+                        <span>Pentaho</span>
+                        <span>MySQL</span>
+                        <span>ETL</span>
+                    </div>
+                    <button
+                        class="project-button"
+                        onclick="openModal('etl-modal')">
+                        View Details →
+                    </button>
+                </article>
+
+                <!-- Coming Soon -->
+                <article class="project-card coming-soon">
+                    <div class="project-number">03</div>
+                    <h3>More projects coming soon</h3>
+                    <p>
+                        I'm currently working on more data analytics projects
+                        to expand my portfolio.
+                    </p>
+                    <div class="project-tags">
+                        <span>Coming Soon</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="reveal">
+            <div class="section-heading">
+                <p class="section-label">CONTACT</p>
+                <h2>Let's connect!</h2>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>
+                        Interested in my work or want to connect?
+                        Feel free to reach out through any of the platforms below.
+                    </p>
+                </div>
+                <div class="contact-links">
+
+                    <a href="mailto:reginanathhania@gmail.com" class="contact-link">
+                        <span class="contact-icon">@</span>
+                        <div>
+                            <strong>Email</strong>
+                            <span>reginanathhania@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/reginnath"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                        <span class="contact-icon">GH</span>
+                        <div>
+                            <strong>GitHub</strong>
+                            <span>View my projects</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/reginanathania/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                        <span class="contact-icon">in</span>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <span>Let's connect professionally</span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- ================================
+     Project Modals
+================================ -->
+
+    <div id="sales-modal" class="modal">
+        <div class="modal-content">
+            <button
+                class="modal-close"
+                onclick="closeModal('sales-modal')">
+                ×
+            </button>
+
+            <p class="section-label">PROJECT 01</p>
+
+            <h2>Sales Data Analytics</h2>
+            <h3>Overview</h3>
+            <p>
+                An end-to-end sales data analytics project following
+                the CRISP-DM framework, covering data preparation,
+                exploratory analysis, statistical testing, A/B testing,
+                and predictive modeling.
+            </p>
+            <h3>Objective</h3>
+            <p>
+                To explore sales data, identify meaningful patterns,
+                evaluate differences between sales channels, and build
+                a classification model to analyze factors associated
+                with online and retail sales.
+            </p>
+            <h3>Workflow</h3>
+            <div class="workflow">
+                <span>Data Cleaning</span>
+                <span>EDA</span>
+                <span>Statistical Testing</span>
+                <span>A/B Testing</span>
+                <span>Machine Learning</span>
+                <span>Model Evaluation</span>
+            </div>
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>
+                    Revenue showed a statistically significant difference
+                    between online and retail sales channels.
+                </li>
+                <li>
+                    Profit did not show a statistically significant
+                    difference between the two channels.
+                </li>
+                <li>
+                    The classification model showed moderate predictive
+                    performance and signs of overfitting.
+                </li>
+            </ul>
+            <h3>Tech Stack</h3>
+            <div class="project-tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>Matplotlib</span>
+                <span>Seaborn</span>
+                <span>SciPy</span>
+                <span>Scikit-learn</span>
+            </div>
+
+            <a
+                class="github-button"
+                href="https://github.com/reginnath/Nike-Sales-Data-Analytics"
+                target="_blank"
+                rel="noopener noreferrer">
+                View Project on GitHub →
+            </a>
+        </div>
+    </div>
+
+
+    <div id="etl-modal" class="modal">
+        <div class="modal-content">
+            <button
+                class="modal-close"
+                onclick="closeModal('etl-modal')">
+                ×
+            </button>
+
+            <p class="section-label">PROJECT 02</p>
+
+            <h2>Data Engineering / ETL</h2>
+            <h3>Overview</h3>
+            <p>
+                An end-to-end ETL project using Pentaho to transform,
+                validate, model, and prepare data for analytical and
+                machine learning use.
+            </p>
+            <h3>Objective</h3>
+            <p>
+                To build a data pipeline that transforms raw data,
+                applies data quality checks, implements a star schema,
+                and produces a dataset ready for analytical and
+                machine learning use.
+            </p>
+            <h3>Workflow</h3>
+            <div class="workflow">
+                <span>Data Transformation</span>
+                <span>Data Validation</span>
+                <span>Star Schema</span>
+                <span>ETL Job</span>
+                <span>Data Loading</span>
+                <span>ML Preparation</span>
+            </div>
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>
+                    Built a structured ETL workflow using Pentaho
+                    transformations and jobs.
+                </li>
+                <li>
+                    Implemented data quality and validation processes
+                    before loading the processed data.
+                </li>
+                <li>
+                    Produced a flattened and encoded dataset for
+                    downstream machine learning use.
+                </li>
+            </ul>
+
+            <h3>Tech Stack</h3>
+            <div class="project-tags">
+                <span>Pentaho</span>
+                <span>MySQL</span>
+                <span>ETL</span>
+                <span>Windows Task Scheduler</span>
+            </div>
+
+            <a
+                class="github-button"
+                href="https://github.com/reginnath/Data-Engineering-ETL-Project"
+                target="_blank"
+                rel="noopener noreferrer">
+                View Project on GitHub →
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Regina Nathania</p>
+        <p>
+            Built with HTML, CSS & JavaScript.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
